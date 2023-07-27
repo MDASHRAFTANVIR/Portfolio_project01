@@ -140,3 +140,10 @@ header {
         justify-content: center;
     }
 }
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .navbar-section nav ul {
+        column-gap: 20px;
+    }
+}
