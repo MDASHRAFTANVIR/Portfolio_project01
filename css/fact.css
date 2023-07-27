@@ -1,12 +1,12 @@
 
 
 .facts {
-    margin: 40px 0;
+    margin-bottom: 60px;
 
 }
 
 .fact-main-content {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 
 }
 
@@ -95,3 +95,23 @@
     animation-name: bgAnimation;
 }
 
+@media screen and (max-width: 480px) {
+    .fact-option {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .fact-option {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .fact-option {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+}
